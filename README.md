@@ -28,7 +28,6 @@
 - Caching: Redis for latest device readings, reduce DB queries
 - WebSocket clustering: Use Redis adapter for Socket.IO clustering
 - Time-series DB: Consider TimescaleDB for telemetry data
-- CDN: Static assets and API responses caching
 - Pagination: Implement device list pagination and virtual scrolling
 
 ### 3. How to ensure only verified devices can send data?
@@ -38,5 +37,5 @@
 - Rate limiting: Prevent spam attacks from compromised devices
 - Data validation: Strict schema validation for telemetry payloads
 - Device registration: Mandatory device registration process
-- Audit logging: Log all device communications for security monitoring
+- Logging: Log all device communications for security monitoring
 - Encryption: End-to-end encryption for sensitive telemetry data
